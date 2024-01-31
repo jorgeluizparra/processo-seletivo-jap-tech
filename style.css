@@ -1,0 +1,29 @@
+/* Estilizar o elemento body presente no html */
+body {
+    /* centralizar texto */
+    text-align: center;
+    /* usar front arial */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    /* alterar a cor do titulo da pagina para azul*/
+    color: blue;
+}
+
+button {
+    /* Remover as bordas do botao */
+    border: unset;
+
+    /* arredondar as bordas do botao*/
+    border-radius: "10px";
+
+    /* colocar mais expaço entre as bordas e o texto do botão*/
+    padding: "10px";
+
+    /* alterar a cor do botao pra vermelho */
+    background-color: red;
+
+    /* alterar a cor do texto para branco */
+    color: white;
+}
